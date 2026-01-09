@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
+
 # Carrega o modelo treinado
 with open('modelo_fraude.pkl', 'rb') as file: 
     fraud_model = pickle.load(file)
